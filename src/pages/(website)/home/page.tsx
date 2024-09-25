@@ -2,7 +2,9 @@ import React from 'react'
 
 const HomePage = () => {
     return (
-        <div>HomePage</div>
+        <div>
+            <img src="https://picsum.photos/id/1/1440/600" alt="" className="w-full" />
+        </div>
     )
 }
 
