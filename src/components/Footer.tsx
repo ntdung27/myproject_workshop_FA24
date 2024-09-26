@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className='text-base'>
                             <p>
                                 400 University Drive Suite 200 Coral Gables,
-                                FL 33134 USA
+                                FL 33134 USA....
                             </p>
                         </div>
                     </div>
