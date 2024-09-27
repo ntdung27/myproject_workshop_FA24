@@ -6,7 +6,7 @@ import { IoCartOutline } from "react-icons/io5";
 const Header = () => {
     return (
         <header>
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto pt-3 pb-3">
                 <div className="grid grid-cols-3 gap-8 items-center">
                     <div>
                         <img src="/public/Logo.svg" alt="NhShop" />
