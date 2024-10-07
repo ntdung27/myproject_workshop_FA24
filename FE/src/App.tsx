@@ -10,11 +10,11 @@ import ProductsList from "./pages/(website)/products-list/page";
 import ContactPage from "./pages/(website)/contact/page";
 import AboutPage from "./pages/(website)/about/page";
 import ProductDetail from "./pages/(website)/product-detail/page";
-import ProductsListPage from "./pages/(admin)/products-list/page";
-import ProductAddPage from "./pages/(admin)/add/page";
-import ProductUpdatePage from "./pages/(admin)/update/page";
+import ProductAddPage from "./pages/(admin)/products/add/page";
+import ProductUpdatePage from "./pages/(admin)/products/update/page";
 import CartPage from "./pages/(website)/cart/page";
 import BillingDetail from "./pages/(website)/bill/page";
+import AdminProductsPage from "./pages/(admin)/products/page";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <Route path="admin" element={<LayoutAdmin />}>
           <Route index element={<Navigate to="dashboard" />} />
           <Route path="dashboard" element={<DashboardPage />} />
-          <Route path="products-list" element={<ProductsListPage />} />
+          <Route path="products-list" element={<AdminProductsPage />} />
           <Route path="product-add" element={<ProductAddPage />} />
           <Route path="product-update" element={<ProductUpdatePage />} />
         </Route>
